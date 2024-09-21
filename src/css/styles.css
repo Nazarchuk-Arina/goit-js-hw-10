@@ -16,6 +16,7 @@ li:hover {
 }
 /* Timer 1 */
 .timer-body {
+  font-family: 'Montserrat', sans-serif;
   display: flex;
   flex-direction: column;
   gap: 32px;
@@ -30,7 +31,6 @@ li:hover {
 }
 
 #datetime-picker {
-  font-family: 'Montserrat', sans-serif;
   width: 272px;
   height: 40px;
   border-radius: 8px;
@@ -58,7 +58,6 @@ li:hover {
 }
 
 .timer-body button {
-  font-family: 'Montserrat', sans-serif;
   border-radius: 8px;
   padding: 8px 16px;
   min-width: 75px;
@@ -95,7 +94,6 @@ li:hover {
 }
 
 .value {
-  font-family: 'Montserrat', sans-serif;
   font-weight: 400;
   font-size: 40px;
   line-height: 120%;
@@ -104,11 +102,11 @@ li:hover {
 }
 
 .label {
-  font-family: 'Montserrat', sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 150%;
   color: #2e2f42;
+  text-transform: uppercase;
 }
 
 /* Snackbar 2 */
@@ -150,7 +148,6 @@ li:hover {
 }
 
 button[type='submit'] {
-  font-family: 'Montserrat', sans-serif;
   border-radius: 8px;
   padding: 8px 16px;
   width: 360px;
@@ -186,6 +183,6 @@ fieldset {
   display: flex;
   justify-content: center;
   gap: 48px;
-  padding: 24px 8px 48px;
+  padding: 24px 8px 48px 48px;
   margin-bottom: 24px;
 }
